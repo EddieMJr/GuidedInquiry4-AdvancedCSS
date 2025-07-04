@@ -1,0 +1,38 @@
+.table {
+    display: table;
+    align-items: center;
+    justify-content: center;
+    padding-top: 200px;
+}
+
+.row {
+    display:table-row;
+}
+
+.red{
+    background-color: red;
+    float: left;
+    display: table-row;
+    width: 150px;
+    height: 40px;
+}
+
+.White{
+    background-color: white;
+    float: left;
+    display: table-row;
+    width: 150px;
+    height: 40px;
+}
+
+img {
+    position: absolute;
+    top: 208px;
+    width: auto;
+    height: 280px;
+
+}
+
+body {
+    background-color: navy;
+}

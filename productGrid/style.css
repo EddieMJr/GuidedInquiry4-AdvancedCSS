@@ -1,0 +1,49 @@
+header {
+    position: relative;
+}
+
+h1 {
+    background-color: rgb(141, 141, 235);
+    color: rgb(0, 0, 0); 
+    text-align: center;
+    height: 90px;
+    padding-top: 45px;
+    margin-top: 0;
+}
+
+div{
+    text-align: center;
+}
+
+footer {
+    padding-top: 75px;
+}
+
+.bookGrid {
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 50px;
+}
+
+img {
+    height: auto;
+    width: 150px;
+}
+
+button {
+    background-color: rgb(141, 141, 235);
+    border-radius: 15px;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: rgb(145, 2, 2);
+}

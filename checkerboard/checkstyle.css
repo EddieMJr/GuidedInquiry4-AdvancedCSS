@@ -1,0 +1,36 @@
+html {
+    background-color: green;
+}
+
+#checkers {
+    padding-top: 50px;
+}
+
+.table {
+    display: table;
+    border: solid 3px;
+    border-color: black;
+    align-items: center;
+    justify-content: center;
+}
+
+.row {
+    display:table-row;
+    width: auto;
+}
+
+.chessBlack{
+    background-color: black;
+    float: left;
+    display: table-column;
+    width: 100px;
+    height: 100px;
+}
+
+.chessWhite{
+    background-color: white;
+    float: left;
+    display: table-column;
+    width: 100px;
+    height: 100px;
+}
